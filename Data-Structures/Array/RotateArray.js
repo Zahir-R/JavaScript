@@ -6,7 +6,7 @@
  * @returns {number[]} - New array rotated to the right by k positions
  * @throws {TypeError} - If input is not an array
  */
-export function rotateRight(array, k) {
+const rotateRight = (array, k) => {
   if (!Array.isArray(array)) {
     throw new TypeError('Input must be an array')
   }
@@ -36,7 +36,7 @@ export function rotateRight(array, k) {
  * @returns {number[]} - New array rotated to the left by k positions
  * @throws {TypeError} - If input is not an array
  */
-export function rotateLeft(array, k) {
+const rotateLeft = (array, k) => {
   if (!Array.isArray(array)) {
     throw new TypeError('Input must be an array')
   }
@@ -57,3 +57,5 @@ export function rotateLeft(array, k) {
 
   return rotated
 }
+
+export { rotateRight, rotateLeft }
