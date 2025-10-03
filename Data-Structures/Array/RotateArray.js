@@ -1,5 +1,6 @@
 /**
  * Rotates an array to the right by k positions
+ * @see https://en.wikipedia.org/wiki/Circular_shift
  * @param {number[]} array - The array to rotate
  * @param {number} k - Number of positions to rotate
  * @returns {number[]} - New array rotated to the right by k positions
@@ -29,6 +30,7 @@ export function rotateRight(array, k) {
 
 /**
  * Rotates an array to the left by k positions
+ * @see https://en.wikipedia.org/wiki/Circular_shift
  * @param {number[]} array - The array to rotate
  * @param {number} k - Number of positions to rotate
  * @returns {number[]} - New array rotated to the left by k positions
